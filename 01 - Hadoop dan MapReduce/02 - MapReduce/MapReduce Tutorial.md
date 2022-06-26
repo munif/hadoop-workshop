@@ -23,6 +23,8 @@ Reload environment variable.
 $ source .bashrc
 ```
 
+---
+
 ## Menyiapkan Kode Program Java
 
 Download file ```WordCount.java```.
