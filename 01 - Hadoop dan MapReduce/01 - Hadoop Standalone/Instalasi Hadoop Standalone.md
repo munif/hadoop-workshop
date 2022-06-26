@@ -12,6 +12,8 @@ Referensi:
 
 1. [Install and Configure Apache Hadoop on Ubuntu 20.04](https://www.vultr.com/docs/install-and-configure-apache-hadoop-on-ubuntu-20-04/)
 
+2. [Hadoop: Setting up a Single Node Cluster.](https://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html)
+
 ---
 ## Membuat Virtual Machine untuk Server
 
