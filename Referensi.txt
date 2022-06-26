@@ -1,0 +1,36 @@
+Faster mirror Ubuntu
+    https://askubuntu.com/questions/37753/how-can-i-get-apt-to-use-a-mirror-close-to-me-or-choose-a-faster-mirror
+
+## main, restricted, universe, and multiverse repositories
+deb mirror://mirrors.ubuntu.com/mirrors.txt focal main restricted universe multiverse
+deb mirror://mirrors.ubuntu.com/mirrors.txt focal-updates main restricted universe multiverse
+deb mirror://mirrors.ubuntu.com/mirrors.txt focal-backports main restricted universe multiverse
+deb mirror://mirrors.ubuntu.com/mirrors.txt focal-security main restricted universe multiverse
+deb-src mirror://mirrors.ubuntu.com/mirrors.txt focal main restricted universe multiverse
+deb-src mirror://mirrors.ubuntu.com/mirrors.txt focal-updates main restricted universe multiverse
+deb-src mirror://mirrors.ubuntu.com/mirrors.txt focal-backports main restricted universe multiverse
+deb-src mirror://mirrors.ubuntu.com/mirrors.txt focal-security main restricted universe multiverse
+
+Static IPv4
+    https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/
+
+Instalasi Hadoop
+    https://www.vultr.com/docs/install-and-configure-apache-hadoop-on-ubuntu-20-04/
+    https://medium.com/@jootorres_11979/how-to-set-up-a-hadoop-3-2-1-multi-node-cluster-on-ubuntu-18-04-2-nodes-567ca44a3b12
+    https://sparkbyexamples.com/hadoop/apache-hadoop-installation/
+    
+
+
+Apache Hive
+
+    https://data-flair.training/blogs/apache-hive-installation/
+    https://phoenixnap.com/kb/install-hive-on-ubuntu
+    https://www.guru99.com/installation-configuration-hive-mysql.html
+
+Apache Hue
+    
+Impala
+
+Kudu
+
+Apache Sqoop --> diganti Talend Open Studio
