@@ -88,6 +88,11 @@ Edit file ```yarn-site.xml``` seperti berikut.
        <name>yarn.resourcemanager.hostname</name>
        <value>192.168.0.175</value>
     </property>
+
+    <property>
+       <name>yarn.resourcemanager.address</name>
+       <value>192.168.0.175:8032</value>
+    </property>
 </configuration>
 ```
 
