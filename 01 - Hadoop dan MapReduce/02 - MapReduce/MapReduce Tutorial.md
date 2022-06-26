@@ -3,7 +3,7 @@
 Referensi:
 1. [MapReduce Tutorial](https://hadoop.apache.org/docs/stable/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html)
 
-Pada tutorial ini, diasumsikan pengguna telah login menggunakan user ```hadoop```.
+Pada tutorial ini diasumsikan pengguna telah login menggunakan user ```hadoop```.
 
 ---
 
