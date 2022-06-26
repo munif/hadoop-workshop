@@ -48,6 +48,12 @@ Edit file ```core-site.xml``` seperti berikut.
 </configuration>
 ```
 
+Buat direktori untuk menyimpan metadata node dan ubah ownershipnya ke user ```hadoop```.
+```
+$ sudo mkdir -p /home/hadoop/hdfs/{namenode,datanode}
+$ sudo chown -R hadoop:hadoop /home/hadoop/hdfs
+```
+
 Edit file ```hdfs-site.xml``` seperti berikut.
 ```
 
@@ -58,11 +64,11 @@ Edit file ```hdfs-site.xml``` seperti berikut.
     </property>
     <property>
         <name>dfs.namenode.name.dir</name>
-        <value>file:///usr/local/hadoop/hdfs/data</value>
+        <value>file:///home/hadoop/hdfs/namenode</value>
     </property>
     <property>
         <name>dfs.datanode.data.dir</name>
-        <value>file:///usr/local/hadoop/hdfs/data</value>
+        <value>file:///home/hadoop/hdfs/datanode</value>
     </property>
 </configuration>
 ```
@@ -125,10 +131,11 @@ chmod 700 /usr/local/hadoop/hdfs/data
 ---
 
 ## Menambahkan Master dan Worker
+Edit file ini hanya pada Master node.
 
-Buka file ```/usr/local/hadoop/etc/hadoop/masters``` dan tambahkan IP dari namenode.
+1. Buka file ```/usr/local/hadoop/etc/hadoop/masters``` dan tambahkan IP dari namenode.
 
-Buka file ```/usr/local/hadoop/etc/hadoop/workers``` dan tambahkan IP dari semua datanode.
+2. Buka file ```/usr/local/hadoop/etc/hadoop/workers``` dan tambahkan IP dari semua datanode.
 
 ---
 
