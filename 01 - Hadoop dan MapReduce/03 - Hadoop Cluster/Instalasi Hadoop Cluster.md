@@ -121,21 +121,10 @@ Edit file ```mapred-site.xml``` seperti berikut.
 </configuration>
 ```
 
-Buat data folder dengan menggunakan perintah berikut di semua server.
-```
-sudo mkdir -p /usr/local/hadoop/hdfs/data
-sudo chown hadoop:hadoop -R /usr/local/hadoop/hdfs/data
-chmod 700 /usr/local/hadoop/hdfs/data
-```
-
 ---
 
 ## Menambahkan Master dan Worker
-Edit file ini hanya pada Master node.
-
-1. Buka file ```/usr/local/hadoop/etc/hadoop/masters``` dan tambahkan IP dari namenode.
-
-2. Buka file ```/usr/local/hadoop/etc/hadoop/workers``` dan tambahkan IP dari semua datanode.
+Pada server master, buka file ```/usr/local/hadoop/etc/hadoop/workers``` dan tambahkan IP dari semua datanode.
 
 ---
 
@@ -148,10 +137,10 @@ namenode:$ hdfs namenode -format
 
 Menjalankan Hadoop Cluster
 ```
-start-dfs.sh
+namenode:$ start-dfs.sh
 ```
 
 Mematikan Hadoop Cluster
 ```
-stop-dfs.sh
+namenode:$ stop-dfs.sh
 ```
