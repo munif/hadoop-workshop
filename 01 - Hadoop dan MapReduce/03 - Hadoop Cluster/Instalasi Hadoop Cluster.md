@@ -42,7 +42,7 @@ Edit file ```core-site.xml``` seperti berikut.
 ```
 <configuration>
     <property>
-        <name>fs.defaultFS</name>
+        <name>fs.default.name</name>
         <value>hdfs://<IP-Namenode>:9000</value>
     </property>
 </configuration>

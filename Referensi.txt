@@ -18,7 +18,7 @@ Instalasi Hadoop
     https://www.vultr.com/docs/install-and-configure-apache-hadoop-on-ubuntu-20-04/
     https://medium.com/@jootorres_11979/how-to-set-up-a-hadoop-3-2-1-multi-node-cluster-on-ubuntu-18-04-2-nodes-567ca44a3b12
     https://sparkbyexamples.com/hadoop/apache-hadoop-installation/
-    
+    https://www.youtube.com/watch?v=_iP2Em-5Abw
 
 
 Apache Hive
