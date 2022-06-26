@@ -18,7 +18,13 @@ Instalasi Hadoop
     https://www.vultr.com/docs/install-and-configure-apache-hadoop-on-ubuntu-20-04/
     https://medium.com/@jootorres_11979/how-to-set-up-a-hadoop-3-2-1-multi-node-cluster-on-ubuntu-18-04-2-nodes-567ca44a3b12
     https://sparkbyexamples.com/hadoop/apache-hadoop-installation/
+        - Host 127.0.1.1 dihapus
+        - File workers hanya di master
+        
     https://www.youtube.com/watch?v=_iP2Em-5Abw
+        https://codewithgowtham.blogspot.com/2022/04/hadoop-multi-node-cluster-setup.html
+    
+    https://www.linode.com/docs/guides/how-to-install-and-set-up-hadoop-cluster/
 
 
 Apache Hive
