@@ -1,3 +1,6 @@
+# Contoh di Google Colaboratory
+# https://colab.research.google.com/drive/1J_ICjndjAb9QvuaWcFW_AQTMKL2lh04T?usp=sharing
+
 import re
 import pandas as pd
 import sys
